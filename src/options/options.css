@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #1ea3a6;
+    --secondary: #2a2d4c;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Changa', sans-serif;
+}

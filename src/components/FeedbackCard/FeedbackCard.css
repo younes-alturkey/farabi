@@ -1,0 +1,129 @@
+:root {
+    --primary: #1ea3a6;
+    --secondary: #2a2d4c;
+    --white: #ffffff;
+    --black: #000000;
+    --card: #edeeef;
+}
+
+.feedback-root-container {
+    margin-top: 1rem;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.feedback-root-container:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.badges-container {
+    padding: 0.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.badge-item {
+    margin: 0 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt-container {
+    padding: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.feedback-container {
+    padding: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.actions {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.action-item {
+    margin: 0 0.25rem;
+    width: fit-content;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 999px;
+    padding: 0.2rem;
+}
+
+.pushable:hover {
+    opacity: 0.9;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-ping {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+    75%,
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}

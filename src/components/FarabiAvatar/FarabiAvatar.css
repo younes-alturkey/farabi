@@ -1,0 +1,50 @@
+:root {
+    --primary: #1ea3a6;
+    --secondary: #2a2d4c;
+    --white: #ffffff;
+    --black: #000000;
+    --card: #edeeef;
+}
+
+.farabi-card {
+    height: 48px;
+    width: 48px;
+    border: 2px var(--primary) solid;
+    background-color: var(--card);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.farabi-card:hover {
+    cursor: ew-resize;
+}
+
+.model-loading-container {
+    height: 48px;
+    width: 48px;
+    border: 2px var(--primary) solid;
+    background-color: var(--card);
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bhr-mark {
+    object-position: center;
+    object-fit: contain;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
