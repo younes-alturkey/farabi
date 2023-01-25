@@ -1,6 +1,6 @@
 # Fingertips Model — Farabi
 
-Powerful browser extension that adds AI capabilities to your everyday browsing.
+Powerful browser extension that adds OpenAI capabilities to your everyday browsing through an easy and fun experience.
 
 ## Getting Started
 
@@ -30,6 +30,6 @@ Powerful browser extension that adds AI capabilities to your everyday browsing.
 
 ## Important Default Boilerplate Notes
 
-- Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
-- Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
-- Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+-   Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
+-   Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
+-   Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative

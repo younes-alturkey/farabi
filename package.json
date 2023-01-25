@@ -1,7 +1,7 @@
 {
     "name": "fingertips-farabi",
-    "version": "1.0.0",
-    "description": "Powerful browser extension that adds AI capabilities to your everyday browsing.",
+    "version": "1.0.2",
+    "description": "Powerful browser extension that adds OpenAI capabilities to your everyday browsing through an easy and fun experience.",
     "author": "Younes Alturkey <younes@bhr.sa> (https://bhr.sa)",
     "scripts": {
         "start": "webpack --watch --progress --config webpack.dev.js",
