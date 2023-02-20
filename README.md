@@ -2,6 +2,23 @@
 
 Powerful browser extension that adds OpenAI capabilities to your everyday browsing through an easy and fun experience.
 
+# Screenshots
+<p align="center">
+  <img src="https://github.com/younes-alturkey/fingertips-farabi/blob/main/screenshots/farabi-sc-1.jpg" alt="demo"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/younes-alturkey/fingertips-farabi/blob/main/screenshots/farabi-sc-2.jpg" alt="demo"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/younes-alturkey/fingertips-farabi/blob/main/screenshots/farabi-sc-3.jpg" alt="demo"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/younes-alturkey/fingertips-farabi/blob/main/screenshots/farabi-sc-4.jpg" alt="demo"/>
+</p>
+
 ## Getting Started
 
 1. `npm i` to install dependancies
