@@ -1,4 +1,4 @@
-# Fingertips Model — Farabi
+# ChatGPT Spin Off — Farabi
 
 Powerful browser extension that adds OpenAI capabilities to your everyday browsing through an easy and fun experience.
 
