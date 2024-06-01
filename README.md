@@ -43,7 +43,7 @@ Powerful browser extension that adds OpenAI capabilities to your everyday browsi
 
 1. `npm run build` to generate a minimized production build in the `dist` folder
 2. ZIP the entire `dist` folder (e.g. `dist.zip`)
-3. Publish the ZIP file on the Chrome Web Store Developer Dashboard!
+3. Publish the ZIP file on the Chrome Web Store Developer Dashboard
 
 ## Important Default Boilerplate Notes
 
